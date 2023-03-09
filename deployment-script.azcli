@@ -2,5 +2,5 @@
 
 az group create --name ep-1-bicep-rg --location westus
 
-az deployment group create --resource-group ep-1-bicep-rg --template-file main.bicep --parameters param.json --confirm-with-what-if
+az deployment group create --resource-group ep-1-bicep-rg --template-file main.bicep --parameters param.json 
 
