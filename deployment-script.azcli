@@ -2,5 +2,7 @@
 
 az group create --name ep-1-bicep-rg --location westus
 
+# create storage account
 az deployment group create --resource-group ep-1-bicep-rg --template-file main.bicep --parameters param.json 
+
 
