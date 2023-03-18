@@ -1,4 +1,5 @@
-// 
+// storage-w-parametrization.bicep
+
 @description('The name of the storage account')
 param stgName string // = 'ep1cloudjourneyazure'
 
