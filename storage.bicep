@@ -1,4 +1,4 @@
-// 
+// storage.bicep
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   name: 'ep1cloudjourneyazure'

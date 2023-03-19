@@ -3,7 +3,7 @@
 param stgName string
 
 
-module createsa1 './modules/storage-w-parametrization.bicep' = {
+module createsa1 '../modules/storage-w-parametrization.bicep' = {
   name: 'createsa1'
   params: {
     stgName: '${stgName}1'
@@ -11,7 +11,7 @@ module createsa1 './modules/storage-w-parametrization.bicep' = {
   }
 }
 
-module createsa2 './modules/storage-w-parametrization.bicep' = {
+module createsa2 '../modules/storage-w-parametrization.bicep' = {
   name: 'createsa2'
   params: {
     stgName: '${stgName}2'
