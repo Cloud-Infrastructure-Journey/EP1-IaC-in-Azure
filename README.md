@@ -1,7 +1,7 @@
 ## Cloud Infrastructure Journey Tips and Tricks: 
 ## Episode 1: Getting started with IaC in Azure
 
-Welcome to our new channel 🎉 🎊
+Welcome to our new channel 🎉 🎊 <br/>
 We will provide you with valuable tips and tricks to help you embark on your Cloud Infrastructure Journey with confidence.
 
 In our first episode, we will be discussing:<br/>
