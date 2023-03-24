@@ -1,20 +1,33 @@
 // Create multiple storage accounts for each region
 
+@minLength(3)
+@maxLength(24)
+@description('Generic storage account name for project')
 param stgName string
 
+@description('Azure region location for deployment.')
+param azureRegion string
 
-module createsa1 '../modules/storage-w-parametrization.bicep' = {
-  name: 'createsa1'
+
+module cloudStorageMain '../modules/storage-w-parametrization.bicep' = {
+  name: 'cloudstoragemain'
   params: {
-    stgName: '${stgName}1'
-    location: 'westus'
+    stgName: '${stgName}stg01'
+    location: azureRegion
   }
 }
 
-module createsa2 '../modules/storage-w-parametrization.bicep' = {
-  name: 'createsa2'
+module cloudStorageLogs '../modules/storage-w-parametrization.bicep' = {
+  name: 'cloudstoragelogs'
   params: {
-    stgName: '${stgName}2'
-    location: 'eastus'
+    stgName: '${stgName}stg02'
+    location: azureRegion
+  }
+}
+
+module webAppMain '../modules/web-app-parameterized.bicep' = {
+  name: 'webAppMain'
+  params: {
+    location: azureRegion
   }
 }
