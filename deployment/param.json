@@ -3,7 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "stgName": {
-        "value": "ep1cloudjourney"
+        "value": "ep1cloudj"
+      },
+      "azureRegion": {
+        "value": "eastus2"
       }
     }
   }
