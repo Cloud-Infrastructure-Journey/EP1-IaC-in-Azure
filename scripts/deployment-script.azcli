@@ -8,5 +8,8 @@ az group list -o table
 # create resource group
 az group create --name ep-1-bicep-rg --location eastus2
 
-# create storage account
+# Deployment with in-line parameters 
+ az deployment group create --resource-group ep-1-bicep-rg --template-file .\deployment\main.bicep --parameters stgName=test235 azureRegion=eastus2 -c
+
+ # Deployment with parameter file
 az deployment group create --resource-group ep-1-bicep-rg --template-file .\deployment\main.bicep --parameters .\deployment\param.json -c
