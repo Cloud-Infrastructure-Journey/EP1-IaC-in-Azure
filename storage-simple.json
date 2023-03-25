@@ -4,25 +4,15 @@
   "metadata": {
     "_generator": {
       "name": "bicep",
-      "version": "0.15.31.15270",
-      "templateHash": "5251963864439012445"
+      "version": "0.13.1.58284",
+      "templateHash": "2473402493035101536"
     }
   },
   "resources": [
     {
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2021-02-01",
-      "name": "ep1cloudjourneyazure",
-      "location": "[resourceGroup().id]",
-      "kind": "StorageV2",
-      "sku": {
-        "name": "Standard_LRS"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts",
-      "apiVersion": "2021-02-01",
-      "name": "cldjoustg0325",
+      "name": "newepicstg12",
       "location": "[resourceGroup().id]",
       "kind": "StorageV2",
       "sku": {

@@ -1,6 +1,8 @@
 // storage-w-parametrization.bicep
 
 @description('The name of the storage account')
+@minLength(3)
+@maxLength(24)
 param stgName string // = 'ep1cloudjourneyazure'
 
 @description('The location of the storage account')
