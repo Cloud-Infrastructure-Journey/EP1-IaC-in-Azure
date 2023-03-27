@@ -9,7 +9,10 @@ az group list -o table
 az group create --name episode1-bicep-rg --location eastus2
 
 # Deployment with in-line parameters 
- az deployment group create --resource-group episode1-bicep-rg --template-file .\deployment\main.bicep --parameters stgName=cls235 azureRegion=eastus2 -c
+az deployment group create --resource-group episode1-bicep-rg --template-file .\deployment\main.bicep --parameters stgName=cls235 azureRegion=eastus2 -c
 
 # Deployment with parameter file
 az deployment group create --resource-group episode1-bicep-rg --template-file .\deployment\main.bicep --parameters .\deployment\param.dev.json -c
+
+# Check deployment with what-if
+az deployment group what-if --resource-group episode1-bicep-rg --template-file .\deployment\main.bicep --parameters stgName=cls235 azureRegion=eastus2
