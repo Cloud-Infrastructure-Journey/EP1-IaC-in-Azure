@@ -18,5 +18,3 @@ By the end of this session, you will have a solid understanding of IaC in Azure 
 
 [<img src="./Azure IAC Journey.jpg" width="50%">](https://youtube.com/live/-cXVYNGCRzs?feature=share "Getting started with IaC in Azure
 ")
-
-Azure IAC Journey.jpg
