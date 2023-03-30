@@ -16,3 +16,4 @@ Moreover, we will demonstrate how you can convert your existing ARM Templates to
 
 By the end of this session, you will have a solid understanding of IaC in Azure and be equipped with the necessary knowledge and tools to get started with Azure Bicep.
 
+YouTube Live Stream - https://youtube.com/live/-cXVYNGCRzs?feature=share
