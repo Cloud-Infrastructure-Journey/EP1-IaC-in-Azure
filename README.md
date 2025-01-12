@@ -1,5 +1,5 @@
 ## Cloud Infrastructure Journey Tips and Tricks: 
-## Episode 1: Getting started with IaC in Azure
+## Episode 1: Getting Started with IaC in Azure
 
 Welcome to our new channel 🎉 🎊 <br/>
 We will provide you with valuable tips and tricks to help you embark on your Cloud Infrastructure Journey with confidence.
@@ -16,7 +16,7 @@ Moreover, we will demonstrate how you can convert your existing ARM Templates to
 
 By the end of this session, you will have a solid understanding of IaC in Azure and be equipped with the necessary knowledge and tools to get started with Azure Bicep.
 
-You can watch live session 👇👇
+You can watch the live session 👇👇
 
 [<img src="./Azure IAC Journey.jpg" width="50%">](https://youtube.com/live/-cXVYNGCRzs?feature=share "Getting started with IaC in Azure
 ")
